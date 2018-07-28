@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <fragment
+    android:id="@+id/detail_fragment"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:name="com.jproger.workout_new.WorkoutDetailFragment"
     android:layout_width="match_parent"
