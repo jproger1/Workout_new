@@ -18,8 +18,7 @@ public class MainActivity extends AppCompatActivity implements WorkoutListFragme
     public void itemClicked(long id) {
         View fragmentContainer = findViewById(R.id.fragment_container);
         if (fragmentContainer != null) {
-            //TODO add fragment code
-            WorkoutDetailFragment fragment = new WorkoutDetailFragment();
+           WorkoutDetailFragment fragment = new WorkoutDetailFragment();
            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
            fragment.setWorkoutId(id);
            transaction.replace(R.id.fragment_container, fragment);
