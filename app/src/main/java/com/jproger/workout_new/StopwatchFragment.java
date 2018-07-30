@@ -14,9 +14,7 @@ import android.widget.TextView;
 import java.util.Locale;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
+
 public class StopwatchFragment extends Fragment {
 
     private int seconds = 0;
@@ -95,5 +93,4 @@ public class StopwatchFragment extends Fragment {
             }
         });
     }
-
 }
