@@ -14,5 +14,6 @@ public class DetailActivity extends AppCompatActivity {
         WorkoutDetailFragment frag = (WorkoutDetailFragment) getSupportFragmentManager().findFragmentById(R.id.detail_fragment);
         int workoutId = (int)getIntent().getExtras().get(EXTRA_WORKOUT_ID);
         frag.setWorkoutId(workoutId);
+        //TODO
     }
 }
